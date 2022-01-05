@@ -9,7 +9,7 @@
         .main-header{
             width: 100%;
             height: 3.5rem;
-            background-color:rgb(193, 230, 32);
+            background-color:rgb(16, 75, 11);
             padding: 0 1.5rem;
         }
         .main-header__nav{
@@ -29,10 +29,10 @@
         }
         .main-header__item a{
             text-decoration: none;
-            color: black;
+            color: white;
         }
         .main-header__item a:hover,
         .main-header__item a:active,
         .main-header__item a.active{
-            color: rgb(36, 45, 172);
+            color: rgb(211, 238, 91);
         }
