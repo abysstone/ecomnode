@@ -32,7 +32,7 @@
             color: black;
         }
         .main-header__item a:hover,
-        .main-header__item a:active
+        .main-header__item a:active,
         .main-header__item a.active{
             color: rgb(36, 45, 172);
         }
