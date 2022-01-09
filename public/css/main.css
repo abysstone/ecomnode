@@ -36,3 +36,16 @@
         .main-header__item a.active{
             color: rgb(211, 238, 91);
         }
+        button{
+            font: inherit;
+            border: 1px solid rgb(16, 75, 11);
+            color:rgb(16, 75, 11);
+            background: white;
+            border-radius: 3px;
+            cursor: pointer;
+         }
+         button:hover,
+         button:active{
+            background-color: rgb(16, 75, 11);
+            color: white;
+         }
