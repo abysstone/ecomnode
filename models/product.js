@@ -1,4 +1,3 @@
-// const products = [];
 const fs = require('fs');
 const path = require('path');
 
@@ -21,7 +20,6 @@ module.exports = class Product{
     }
 
     save(){
-        // products.push(this);
         getProductsFromFile(products => {
             products.push(this);
             fs.writeFile(p, JSON.stringify(products), (err) => {
